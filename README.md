@@ -1,9 +1,11 @@
 # aimbug
 
 
-To connect your current database, replace the it with "database name"
+connecting to your current database,go to the server.js file locate the following line of code and replace the it with your database  "database name"
 
 mongoose.connect('mongodb://localhost/(database_name)', { useNewUrlParser: true});
+
+
 
 The `api` uri preceed all API endpoints and the following endpoints are currently available
 * GET `/api/contacts`
